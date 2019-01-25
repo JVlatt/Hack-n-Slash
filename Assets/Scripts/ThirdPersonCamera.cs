@@ -26,6 +26,8 @@ public class ThirdPersonCamera : MonoBehaviour {
     {
         m_camTransform = transform;
         m_cam = Camera.main;
+
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Update()
